@@ -1,0 +1,58 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:stretchColumns="0|1" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/X" />
+
+            <TextView
+                android:id="@+id/x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notsupported" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/Y"/>
+
+            <TextView
+                android:id="@+id/y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notsupported" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/Z" />
+
+            <TextView
+                android:id="@+id/z"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notsupported" />
+        </TableRow>
+    </TableLayout>
+
+</merge>
